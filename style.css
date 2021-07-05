@@ -11,7 +11,7 @@ body {
     width: 50%;
 }
 
-.half-width img {
+#header-img {
     width: 80%;
 }
 
@@ -33,6 +33,11 @@ h1 {
     color: #828282;
 }
 
+.about-text p {
+    margin-bottom: 50px;
+    color: #828282;
+}
+
 div a {
     text-decoration: none;
     background-image: linear-gradient(#FBA24F, #FF1E1E);
@@ -43,8 +48,42 @@ div a {
 
 }
 
-.header-section {
-    background-image: url(images/about-bg2.jpg);
+.about-section {
+    background-image: url(images/about-bg.png);
     background-position: center;
     background-size: cover;
+}
+
+#about-img {
+    height: 630px;
+    width: 400px;
+    padding-left: 20%;
+    margin-top: 40px;
+}
+
+.about-text {
+    padding: 10%;
+}
+
+.recipes-text {
+    text-align: center;
+}
+
+.recipes-items {
+    padding: 0 7%;
+    display: flex;
+}
+
+.recipe-item {
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 3%;
+    padding: 1%;
+    border-radius: 40px;
+}
+
+.recipe-item img {
+    display: block;
+    margin: auto;
+    width: 97%;
 }
