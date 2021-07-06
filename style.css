@@ -41,7 +41,7 @@ h1 {
 div a {
     text-decoration: none;
     background-image: linear-gradient(#FBA24F, #FF1E1E);
-    padding: 20px;
+    padding: 15px;
     color: #FFF;
     font-weight: 700;
     border-radius: 50px;
@@ -52,6 +52,7 @@ div a {
     background-image: url(images/about-bg.png);
     background-position: center;
     background-size: cover;
+    height: 670px;
 }
 
 #about-img {
@@ -141,4 +142,61 @@ div a {
     padding: 20px;
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.order-now a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.subs-title {
+    text-align: center;
+}
+
+.subs-item {
+    padding: 2% 33%;
+    display: flex;
+}
+
+form input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    width: 500px;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+form p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#subs-btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 0;
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+    background: none;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.footer-item {
+    padding: 50px;
+    position: relative;
+    top: 50px;
+    background: black;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    height: 100px;
 }
